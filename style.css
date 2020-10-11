@@ -4,29 +4,70 @@ html { box-sizing: border-box; }
 
 /* body */
 
-body{
+body {
     text-rendering: optimizeLegibility;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     font-size: 16px;
-    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    background-color: #ede6e3;
+}
+
+.whole {
+    display: block;
+    margin-top: 0;
 }
 
 /*header*/
 
-.logo {
-    margin: 0;
-    padding: 0;    
-}
-
-
-
-div {
+header {
     display: flex;
-    background-color:
-    width: 1000px;
+    flex: 1;
+    background-color:#C9B6B6;
+    position: relative;
+    margin-top: 2rem;
 }
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;    
+    padding-top: 0;
+}
+
+.napis {
+    font-family: 'Mr Dafoe', cursive;
+}
+
+/* nadpis*/
+
+.nadpis {
+    margin-top: 30px;
+    margin-left: 200px;
+    padding: 1rem 3rem 1rem 3rem ;
+    color: #ede6e3;
+    background-color: #b38d91;
+    font-size: 16px;
+    width: 200px;
+    height: 200px;
+}
+
+/*procedury*/
+
+p {
+    display: inline-table;
+    flex: 3;
+    list-style: none;
+    justify-content: space-around;
+    width: 150px;
+    height: 150px;
+    background-color: #C9B6B6;
+    margin-left: auto;
+}
+
+
 
 
 
