@@ -28,44 +28,48 @@ header {
     flex: 1;
     background-color:#C9B6B6;
     position: relative;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    padding-top: 10px;
 }
 
 .logo {
     margin-left: auto;
     margin-right: auto;    
-    padding-top: 0;
 }
 
-.napis {
+.nadpis {
     font-family: 'Mr Dafoe', cursive;
 }
 
-/* nadpis*/
+/* nabidka*/
 
-.nadpis {
-    margin-top: 30px;
-    margin-left: 200px;
-    padding: 1rem 3rem 1rem 3rem ;
+.offer {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+h3 {
+    flex: 1;
+    padding: 2rem 1rem 2rem 1rem;
     color: #ede6e3;
     background-color: #b38d91;
-    font-size: 16px;
-    width: 200px;
-    height: 200px;
-}
-
-/*procedury*/
-
-p {
-    display: inline-table;
-    flex: 3;
-    list-style: none;
-    justify-content: space-around;
-    width: 150px;
-    height: 150px;
-    background-color: #C9B6B6;
+    font-size: 1rem;
+    max-width: 160px;
+    max-height: 160px;
+    min-width: 180px;
+    min-width: 180px;
     margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
+
+/*ceník*/
+
 
 
 
