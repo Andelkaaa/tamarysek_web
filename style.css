@@ -18,14 +18,12 @@ body {
 }
 
 
-
 /*header*/
 
 header {
     display: flex;
     justify-content: center;
     background-color:#C9B6B6;
-    position: relative;
     margin-top: 3rem;
     padding-top: 10px;
 }
@@ -48,7 +46,7 @@ header {
     margin-right: auto;
 }
 
-p {
+.procedura {
     flex: 1;
     justify-content: center;
     align-items: center;
@@ -95,9 +93,71 @@ p {
 /* rezervace button*/
 
 .rezervace {
-    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto 2rem auto;
+}
+
+button {
+    top: 700px;
+    right: 380px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #ede6e3;
+    border: 8px solid #b38d91;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: #C9B6B6;
+}
+
+a {
     text-transform: uppercase;
-    text-decoration-line: none;
+    color: #b38d91;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ede6e3;
+}
+
+
+/*dalsi sluzby*/
+
+.dalsi {
+    background-color: #b38d91;
+}
+
+.sluzby {
+    max-width: 1000px;
+    min-width: 1000px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    line-height: 2;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* paticka*/
+
+.footer {
+    width: 1000px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 2rem auto 1rem auto;
+    padding-top: 1rem;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 
@@ -109,8 +169,7 @@ p {
 
 
 
-/* barva béžová  #B3ABA0
-   barva růžová  #b38d91
+/* barva růžová  #b38d91
    barva krémová #ede6e3
    barva světle růžová #C9B6B6
 
