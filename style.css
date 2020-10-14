@@ -2,6 +2,7 @@ html { box-sizing: border-box; }
 
 *, ::after, ::before { box-sizing: inherit; }
 
+
 /* body */
 
 body {
@@ -20,6 +21,7 @@ body {
     display: block;
     margin-top: 0;
 }
+
 
 /*header*/
 
@@ -40,6 +42,7 @@ header {
 .nadpis {
     font-family: 'Mr Dafoe', cursive;
 }
+
 
 /* nabidka*/
 
@@ -70,10 +73,22 @@ h3 {
 
 /*ceník*/
 
+.table {
+    background-color: #C9B6B6;
+}
+
+table {
+    width: 1000px;
+}
+
+
 
 
 
 
 
 /* barva béžová  #B3ABA0
+   barva růžová  #b38d91
+   barva krémová #ede6e3
+   barva světle růžová #C9B6B6
 
