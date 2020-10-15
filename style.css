@@ -53,6 +53,7 @@ header {
     padding: 2rem 1rem 1rem 1rem;
     color: #ede6e3;
     background-color: #b38d91;
+    border-radius: 15% 15% 15% 0;
     font-size: 1rem;
     max-height: 180px;
     max-width: 180px;
@@ -89,6 +90,10 @@ header {
     padding-bottom: 1rem;
 }
 
+.cena {
+    text-align: right;
+}
+
 
 /* rezervace button*/
 
@@ -114,7 +119,7 @@ button:hover {
     background-color: #C9B6B6;
 }
 
-a {
+a.online {
     text-transform: uppercase;
     color: #b38d91;
     text-decoration: none;
@@ -129,13 +134,14 @@ a:hover {
 
 .dalsi {
     background-color: #b38d91;
+    display: flex;
 }
 
 .sluzby {
     max-width: 1000px;
     min-width: 1000px;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem 2rem;
@@ -175,17 +181,29 @@ h3 {
 }
 .part1,
 .part2 {
-     padding-top: 0.5rem;
-     padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
  }
 
  .part2 {
-     padding-top: 1rem;
+    padding-top: 1rem;
  }
 
  .adresa {
-     font-weight: normal;
+    font-weight: normal;
  }
+
+ .facebook {
+    text-decoration: none;
+    background-color: #b38d91;
+    color: #ede6e3;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.fb {
+    margin-top: 2.5rem;
+}
+
 
 
 
