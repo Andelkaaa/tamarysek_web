@@ -28,7 +28,7 @@ header {
     padding-top: 10px;
 }
 
-.nadpis {
+.napis {
     font-family: 'Mr Dafoe', cursive;
 }
 
@@ -53,7 +53,7 @@ header {
     padding: 2rem 1rem 1rem 1rem;
     color: #ede6e3;
     background-color: #b38d91;
-    border-radius: 15% 15% 15% 0;
+    border-radius: 20px 20px 20px 0;
     font-size: 1rem;
     max-height: 180px;
     max-width: 180px;
@@ -134,14 +134,11 @@ a:hover {
 
 .dalsi {
     background-color: #b38d91;
-    display: f;
 }
 
 .sluzby {
     max-width: 1000px;
     min-width: 1000px;
-    justify-content: space-between;
-    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem 2rem;
@@ -150,6 +147,16 @@ a:hover {
 
 ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+li {
+    background-color: #ede6e3;
+    padding: 1rem 2rem;
+    border-radius: 15px 15px 15px 0;
 }
 
 .cenik,
@@ -193,15 +200,14 @@ h3 {
     font-weight: normal;
  }
 
- .facebook {
-    text-decoration: none;
-    background-color: #b38d91;
-    color: #ede6e3;
-    padding: 1rem 0.5rem 1rem 0.5rem;
-}
+ .pat3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
 
-.fb {
-    margin-top: 2.5rem;
+.facebook {
+    padding-top: 2rem;
 }
 
 
