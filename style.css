@@ -26,10 +26,16 @@ header {
     background-color:#C9B6B6;
     margin-top: 3rem;
     padding-top: 10px;
+    position: relative;
 }
 
-.napis {
-    font-family: 'Mr Dafoe', cursive;
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    position: absolute;
+    right: 180px;
+    bottom: -20px;
+    transform: rotate(-20deg);
 }
 
 
@@ -141,16 +147,18 @@ a:hover {
     min-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem 2rem;
     line-height: 2;
+}
+
+.nadpis {
+    padding: 1rem 2rem 0 2rem;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
 }
 
 li {
@@ -175,7 +183,7 @@ h3 {
     flex: 1;
     flex-direction: row;
     margin: 0 auto 1rem auto;
-    padding: 2rem;
+    padding: 1rem 2rem;
     justify-content: space-between;
     align-items: baseline;
     font-weight: 500;
