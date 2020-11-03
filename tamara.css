@@ -1,0 +1,171 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+/* -------------------------------------------------- */
+
+/*MOBIL*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    background-color: #ede6e3;
+    font-size: 0.9rem ;
+}
+
+/*header*/
+
+.logo {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color:#C9B6B6;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0,5rem;
+}
+
+/*main*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.box {
+    color: #ede6e3;
+    background-color: #b38d91;
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+
+/*pricelist*/
+
+.pricelist {
+    background-color: #C9B6B6;
+    line-height: 2rem;
+    padding: 0.5rem;
+}    
+
+.top,
+.next {
+    font-weight: 500;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+.price1,
+.price2 {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ede6e3;
+}
+
+/*rezervace*/
+
+.button {
+    height: 140px;
+    width: 140px;
+    background-color: #ede6e3;
+    border: 6px solid #b38d91;
+    border-radius: 50%;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.button a {
+    text-decoration: none;
+    color:  #b38d91;
+}
+
+.button:hover {
+    background-color: #C9B6B6;
+}
+
+/*dalsi sluzby*/
+
+.other {
+    background-color: #b38d91;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.next,
+.list {
+    padding-left: 0.5rem;
+}
+
+li { 
+    list-style: none;
+    padding: 0.3rem;
+}
+
+/*footer*/
+
+footer {
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+}
+
+.footer_top,
+.footer_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.partneri {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.kontakt,
+.partneri {
+    font-weight: 500;
+}
+
+.adresa {
+    font-weight: 400;
+}
+
+.part1 {
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.part2 {
+    padding-top: 1rem;
+}
+
+.footer_bottom {
+    align-items: center;
+    padding-top: 2rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
