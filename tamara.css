@@ -333,31 +333,30 @@ td {
     border: 8px solid #b38d91;
     border-radius: 50%;
     margin: rem auto 2rem auto;
-
-
-/*dalsi sluzby*/
-
-.dalsi {
-    background-color: #b38d91;
 }
 
-.sluzby {
+/*other*/
+
+.other {
+    border-radius: 0px;
+}
+
+.container {
     max-width: 1000px;
-    min-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 2;
 }
 
-.nadpis {
-    padding: 1rem 2rem 0 2rem;
+.next {
+    padding: 1rem 2rem 1rem 1rem;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 0;
+    padding-bottom: 1rem;
 }
 
 li {
@@ -366,56 +365,30 @@ li {
     border-radius: 15px 15px 15px 0;
 }
 
-.cenik,
-h3 {
-    font-size: 1rem;
-    font-weight: 700;
-}
+/* footer*/
 
-
-/* paticka*/
-
-.footer {
+footer {
     max-width: 1000px;
-    min-width: 1000px;
     display: flex;
-    flex: 1;
-    flex-direction: row;
-    margin: 0 auto 1rem auto;
-    padding: 1rem 2rem;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0rem;
     justify-content: space-between;
-    align-items: baseline;
     font-weight: 500;
 }
 
-.partneri {
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
+.footer_bottom {
+    align-items: baseline;
 }
-.part1,
-.part2 {
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
- }
-
- .part2 {
-    padding-top: 1rem;
- }
 
  .adresa {
     font-weight: normal;
  }
-
- .pat3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-
-.facebook {
-    padding-top: 2rem;
 }
+
+
+
 
 
 
