@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     background-color: #ede6e3;
-    font-size: 0.9rem ;
+    font-size: 0.8rem ;
 }
 
 /*header*/
@@ -24,7 +24,7 @@ header {
     background-color:#C9B6B6;
     margin-top: 1rem;
     padding-top: 1rem;
-    padding-bottom: 0,5rem;
+    padding-bottom: 0.5rem;
 }
 
 /*main*/
@@ -50,24 +50,23 @@ header {
 
 .pricelist {
     background-color: #C9B6B6;
-    line-height: 2rem;
-    padding: 0.5rem;
 }    
 
-.top,
-.next {
-    font-weight: 500;
+.top {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
 }
 
-tr {
+.columns {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
-.price1,
-.price2 {
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid #ede6e3;
+.right {
+    text-align: right;
 }
 
 /*rezervace*/
@@ -153,7 +152,7 @@ footer {
 }
 
 .part2 {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 .footer_bottom {
@@ -168,7 +167,7 @@ footer {
 @media screen and (min-width: 480px) {
 
 body {
-    font-size: 1rem ;
+    font-size: 1rem;
 }
 
 /*header*/
@@ -193,24 +192,8 @@ body {
 
 /*pricelist*/
 
-.pricelist {
-    background-color: #C9B6B6;
-    line-height: 2rem;
-    padding: 0.5rem;
-}    
-
-
-tr {
-    display: flex;
-    flex-direction: column;
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-}
-
-.price1,
-.price2 {
-    padding-bottom: 0.7rem;
-    border-bottom: 1px solid #ede6e3;
+.top {
+    font-size: 1rem;
 }
 
 /*rezervace*/
@@ -221,6 +204,12 @@ tr {
     border: 8px solid #b38d91;
     font-size: 1.3rem;
     margin: 1.5rem auto 1.5rem auto;
+}
+
+/*footer*/
+
+.part2 {
+    padding-top: 1.8rem;
 }
 }
 
@@ -281,47 +270,19 @@ body {
 
 /*ceník*/
 
-.table {
-    background-color: #C9B6B6;
-    display: flex;
-    margin-top: 2rem;
-    flex-wrap: wrap;
-}
-
-.pricelist {
+.columns {
     max-width: 1000px;
-    min-width: 1000px;
-    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem 0 1rem 0;
-    line-height: 2;
-    border-bottom: none;
-}
-
-tr {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-td {
-    padding-bottom: 0;
-    padding: 0;
-}
-
-.price {
-    align-items: right;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .top {
-    font-weight: 700;
-    padding-bottom: 1rem;
-}
-
-.price1,
-.price2 {
-    border-bottom: none;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
 }
 
 /*rezervace*/
@@ -357,6 +318,7 @@ ul {
     justify-content: space-between;
     padding: 0;
     padding-bottom: 1rem;
+    margin-left: 0;
 }
 
 li {
@@ -384,6 +346,10 @@ footer {
 
  .adresa {
     font-weight: normal;
+ }
+
+ .part2 {
+     padding-top: 2.2rem;
  }
 }
 
